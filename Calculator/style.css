@@ -1,0 +1,38 @@
+body{
+
+    box-sizing: border-box;
+    max-height: 100vh;
+    background-color: black;
+    
+    
+}
+
+
+#resultarea{
+    font-size: 2rem;
+    min-height: 25vh;
+    border: 1px solid white;
+    color: white;
+    border-radius: 5px;
+    text-align:right;
+    padding:20px;
+
+}
+h1{
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    color: white;
+}
+
+#buttonsarea{
+    height: 60vh;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 1px;
+    background-color: black;
+}
+button{
+    font-size: 2rem;
+    
+}
+
